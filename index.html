@@ -205,7 +205,7 @@
 
     function fetchLiveStats() {
         $.ajax({
-            url: api + '/live_stats',
+            url: api + '/stats',
             dataType: 'json',
             cache: 'false'
         }).done(function(data){
