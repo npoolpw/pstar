@@ -216,7 +216,7 @@
         }).always(function () {
 	    setTimeout(function(){
                 fetchLiveStats();
-            }, 1000*data.config.updateInterval);
+            }, 1000*lastStats.config.updateInterval);
         });
     }
 
