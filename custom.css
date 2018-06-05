@@ -436,7 +436,7 @@ b {
     font-weight: bold;
 }
 #stats_updated{
-    opacity: 0;
+    opacity: 1;
     float: right;
     margin-left: 30px;
     line-height: 47px;
